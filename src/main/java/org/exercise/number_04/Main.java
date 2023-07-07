@@ -12,12 +12,13 @@ public class Main {
             numbers.add(i);
         }
         Integer j = 1;
+        Integer result = 1;
         for (int i = numbers.size() - 1; i > 0; i--) {
-            Integer result = j * numbers.get(i);
+            result = j * numbers.get(i);
             j=result;
-            System.out.println(result);
-        }
 
+        }
+        System.out.println(result);
     }
 }
 
