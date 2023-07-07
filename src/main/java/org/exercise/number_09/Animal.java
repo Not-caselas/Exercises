@@ -12,6 +12,13 @@ public class Animal {
         this.raza = raza;
         this.medio = medio;
     }
+    public Animal(Animal animal) {
+        this.reino = animal.reino;
+        this.tipo = animal.tipo;
+        this.raza = animal.raza;
+        this.medio = animal.medio;
+    }
+
     @Override
     public String toString() {
         return "no sé que poner aquí";
